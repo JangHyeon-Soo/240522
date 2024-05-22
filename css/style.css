@@ -1,0 +1,85 @@
+
+
+img
+{
+    width: 250px;
+    height: auto;
+    float:left;
+}
+
+div
+{
+    color: white;
+}
+
+.container
+{
+ margin: 0 auto;
+ width: auto ;
+ height: 500px;
+ border: 1px solid black;
+}
+
+.container::after
+{
+    content: ;
+    display: block;
+    clear: both;
+}
+
+.red-box
+{
+    background-color: red;
+    float: right;
+    width: 100px;
+    height: 100px;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+
+}
+.green-box
+{
+    background-color: green;
+    float: right;
+    width: 100px;
+    height: 100px;
+    clear: right;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.blue-box
+{
+    background-color: blue;
+    float: right;
+    clear: right
+    ;width: 100px;
+    height: 100px;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.red-box:hover
+{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+
+.green-box:hover
+{
+    height: 200px;
+    width: 200px;
+    transition-delay: 0.2s;
+    background-color: aqua;
+}
+
+.blue-box:hover
+{
+    height: 200px;
+    width: 200px;
+    background-color: violet;
+    
+}
+
+
